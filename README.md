@@ -12,7 +12,7 @@ The model is designed to work even on very sparsely sampled light curves. Fittin
 
 ![alt text](figs/des.png "DES Light Curve")
 
-we determine it has a period about 0.54 days, and distance modulus of 19.2 and folded light curve:
+we determine it has a period about 0.54 days, distance modulus of 19.2 and folded light curve:
 
 ![alt text](figs/des_folded.png "DES Folded Light Curve")
 
