@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/122527537.svg)](https://zenodo.org/badge/latestdoi/122527537)
+
 # RR Lyrae Templates
 
 Fit templates to RR Lyrae to estimate star variability parameters. The code takes data like this:
