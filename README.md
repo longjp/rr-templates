@@ -23,7 +23,7 @@ we determine it has a period about 0.54 days, distance modulus of 19.2 and folde
 
 The fitting code is written in R. This software includes demonstrations in both R and python (via `rpy2`) in the files `demo_R.ipynb` and `demo_python.ipynb`.
 
-The templates were constructed by James Long (jlong@stat.tamu.edu). Please contact with questions or bug reports. The code used to construct the templates (from SDSS Stripe 82 RR Lyrae) is available from Long upon request.
+The templates were constructed by James Long (jplong@mdanderson.org). Please contact with questions or bug reports. The code used to construct the templates (from SDSS Stripe 82 RR Lyrae) is available from Long upon request.
 
 
 ## License and Citation
