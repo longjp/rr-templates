@@ -282,8 +282,6 @@ NewtonUpdate <- function(phi,omega,m,t,dust,weights,nb,template_funcs,templated_
     if(a > 0){
         gammafd <- ConstructGamma(t,nb,phi,omega,templated_funcs)
         mp <- m - mu - d*dust
-        ## TODO: describe this optimization method somewhere
-        ## see FDA book on modified Newton method for phase registration
         if(use.errors){
             del <- sum(gammafd*(mp-a*gammaf)*weights)
             h <- a*sum(gammafd*gammafd*weights)
@@ -302,7 +300,6 @@ NewtonUpdate <- function(phi,omega,m,t,dust,weights,nb,template_funcs,templated_
 }
 
 ## update for the (mu,a,d) parameter vector (closed form because phi fixed)
-## TODO: can NewtonUpdate just call this function?
 AmpMuDustUpdate <- function(phi,omega,m,t,dust,weights,nb,template_funcs,use.errors,use.dust){
     gammaf <- ConstructGamma(t,nb,phi,omega,template_funcs)
     if(use.dust){
