@@ -25,6 +25,8 @@ The fitting code is written in R. This software includes demonstrations in both 
 
 The templates were constructed by James Long (jplong@mdanderson.org). Please contact with questions or bug reports. The code used to construct the templates (from SDSS Stripe 82 RR Lyrae) is available from Long upon request.
 
+RDataToCSV.R takes as input templates in .RData form (template_des.RData) and outputs components of templates in folder (template_des/).
+
 
 ## License and Citation
 
